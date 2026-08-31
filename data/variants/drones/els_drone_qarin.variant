@@ -1,0 +1,25 @@
+{
+    "variantId": "els_drone_qarin",
+    "hullId": "els_drone_qarin",
+    "displayName": "Attack Drone",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "quality": 0.5,
+    "hullMods": [],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "els_positronblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "els_zdmaser_sm"
+            }
+        }
+    ]
+}

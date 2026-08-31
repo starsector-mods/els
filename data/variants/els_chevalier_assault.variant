@@ -1,0 +1,49 @@
+{
+    "variantId": "els_chevalier_assault",
+    "hullId": "els_chevalier",
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 12,
+    "quality": 0.75,
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "fluxdistributor"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0000": "els_glaive"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "els_raad_rack",
+                "WS0002": "els_raad_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_hvydefmaser",
+                "WS0004": "els_hvydefmaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "els_tacmaser",
+                "WS0006": "els_tacmaser"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

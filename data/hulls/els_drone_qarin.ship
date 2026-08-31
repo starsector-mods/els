@@ -1,0 +1,87 @@
+{
+  "bounds": [
+    -10, -8,
+    -10, 8,
+    10, 6,
+    10, -6
+  ],
+  "center": [
+    12,
+    12
+  ],
+  "collisionRadius": 18,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 19,
+      "location": [
+        -8,
+        -0
+      ],
+      "style": "ELS_MILITARY",
+      "width": 4
+    },
+    {
+      "angle": 141.52,
+      "contrailSize": 128,
+      "length": 12.65,
+      "location": [
+        -7,
+        3
+      ],
+      "style": "ELS_MILITARY",
+      "width": 4
+    },
+    {
+      "angle": -141.52,
+      "contrailSize": 128,
+      "length": 12.65,
+      "location": [
+        -7,
+        -3
+      ],
+      "style": "ELS_MILITARY",
+      "width": 4
+    }
+  ],
+  "height": 24,
+  "hullId": "els_drone_qarin",
+  "hullName": "Qarin",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    2,
+    -0
+  ],
+  "shieldRadius": 18,
+  "spriteName": "graphics/ELS/ships/drones/els_qarin.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 25,
+      "id": "WS0001",
+      "locations": [
+        5.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 310,
+      "id": "WS0002",
+      "locations": [
+        -3,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 24
+}

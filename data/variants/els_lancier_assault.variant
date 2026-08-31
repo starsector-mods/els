@@ -1,0 +1,47 @@
+{
+    "variantId": "els_lancier_assault",
+    "hullId": "els_lancier",
+    "displayName": "Assault",
+    "fluxCapacitors": 2,
+    "fluxVents": 5,
+    "quality": 0.5,
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "fluxdistributor"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "els_positronblaster_hvy"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "els_hatf_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_tacmaser",
+                "WS0004": "els_tacmaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "els_heatvent"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

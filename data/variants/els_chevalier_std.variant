@@ -1,0 +1,48 @@
+{
+    "variantId": "els_chevalier_std",
+    "hullId": "els_chevalier",
+    "displayName": "Standard",
+    "fluxCapacitors": 8,
+    "fluxVents": 12,
+    "quality": 0.5,
+    "hullMods": [
+        "targetingunit",
+        "fluxdistributor"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0000": "els_coilac_heavy"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "els_hatf_rack",
+                "WS0002": "els_hatf_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_hmaser",
+                "WS0004": "els_hmaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "els_zdmaser_sm",
+                "WS0006": "els_zdmaser_sm"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

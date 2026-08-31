@@ -1,0 +1,43 @@
+{
+    "variantId": "els_dupleix_assault",
+    "hullId": "els_dupleix",
+    "displayName": "Assault",
+    "fluxCapacitors": 2,
+    "fluxVents": 4,
+    "quality": 0.75,
+    "wings": [
+        "els_ifrit_wing",
+        "els_djinn_wing"
+    ],
+    "hullMods": [
+        "targetingunit"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "els_hatf_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "els_coilac_heavy",
+                "WS0003": "els_tacmaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "els_zdmaser_sm",
+                "WS0006": "els_zdmaser_sm"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

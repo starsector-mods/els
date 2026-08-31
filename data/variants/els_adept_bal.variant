@@ -1,0 +1,32 @@
+{
+    "variantId": "els_adept_bal",
+    "hullId": "els_adept",
+    "displayName": "Balanced",
+    "fluxCapacitors": 3,
+    "fluxVents": 6,
+    "quality": 0.5,
+    "hullMods": [
+        "hardenedshieldemitter",
+        "fluxbreakers"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "els_positronblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "els_stinger",
+                "WS0003": "els_stinger"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

@@ -1,0 +1,30 @@
+# Java / IDE
+*.class
+.idea/
+*.iml
+bin/
+out/
+sources.txt
+.system_generated/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Starsector / Backups
+*.bak
+*.tmp
+*.old
+*.sav
+starsector.log*
+
+# Temporary scripts
+*.py
+fix_*.py
+
+# Photoshop / Art sources
+psd/
+*.psd
+
+# JAR metadata
+META-INF/

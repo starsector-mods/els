@@ -1,0 +1,75 @@
+{
+    "combatSmallForSmallFleet": {
+        "els_adept_std": 10,
+        "els_damascus_recon": 10,
+        "els_damascus_std": 10,
+        "els_lancier_cs": 10
+    },
+    "combatSmall": {
+        "els_adept_std": 10,
+        "els_adept_bal": 8,
+        "els_adept_support": 8,
+        "els_adept_patrol": 6,
+        "els_damascus_std": 10,
+        "els_damascus_escort": 8,
+        "els_damascus_recon": 10,
+        "els_damascus_strike": 6,
+        "els_lancier_assault": 10,
+        "els_lancier_cs": 8,
+        "els_lancier_elite": 5,
+        "els_lancier_brawler": 6
+    },
+    "combatMedium": {
+        "els_chevalier_std": 10,
+        "els_chevalier_fast": 8,
+        "els_chevalier_patrol": 8,
+        "els_chevalier_supp": 6,
+        "els_chevalier_assault": 6,
+        "els_chevalier-ss_custom": 3,
+        "els_chevalier-ss_strike": 3,
+        "els_hallebarde_std": 10,
+        "els_hallebarde_assault": 8,
+        "els_hallebarde_supp": 6,
+        "els_hallebarde_strike": 5,
+        "els_chevalier-ss_assault": 3
+    },
+    "carrierMedium": {
+        "els_dupleix_support": 10,
+        "els_dupleix_assault": 8,
+        "els_dupleix_escort": 8,
+        "els_dupleix_strike": 5
+    },
+    "combatFreighterSmall": {
+        "els_mistral_m_std": 10,
+        "els_mistral_m_assault": 8,
+        "els_sommelier_defense": 6
+    },
+    "freighterSmall": {
+        "els_mistral_bal": 10,
+        "els_mistral_smuggler": 6
+    },
+    "tankerSmall": {
+        "els_sommelier_support": 10,
+        "els_sommelier_defense": 8
+    },
+    "fastAttack": {
+        "els_damascus_recon": 10,
+        "els_damascus_strike": 8,
+        "els_adept_patrol": 8,
+        "els_chevalier_fast": 10,
+        "els_chevalier-ss_strike": 5
+    },
+    "escortSmall": {
+        "els_damascus_escort": 10,
+        "els_adept_support": 8,
+        "els_lancier_cs": 8
+    },
+    "escortMedium": {
+        "els_chevalier_supp": 10,
+        "els_dupleix_escort": 8
+    },
+    "civilianRandom": {
+        "els_mistral_bal": 10,
+        "els_sommelier_support": 8
+    }
+}

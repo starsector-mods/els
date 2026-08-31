@@ -1,0 +1,32 @@
+{
+    "variantId": "els_damascus_std",
+    "hullId": "els_damascus",
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 7,
+    "quality": 0.5,
+    "hullMods": [
+        "targetingunit",
+        "fluxbreakers"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "els_hatf_rack",
+                "WS0002": "els_hatf_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_tacmaser"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

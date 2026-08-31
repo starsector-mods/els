@@ -1,0 +1,175 @@
+{
+    "playableFaction": true,
+    "corvusCompatible": true,
+    "spawnChance": 1.0,
+    "colonyExpeditionChance": 0.75,
+    "morality": "good",
+    "alignments": {
+        "technocratic": 0.5,
+        "militarist": 0.3,
+        "hierarchical": 0.4,
+        "diplomatic": -0.2
+    },
+    "diplomacyTraits": [
+        "stalwart",
+        "law_and_order",
+        "hegemonic"
+    ],
+    "startShipsSolo": [
+        [
+            "els_adept_std"
+        ],
+        [
+            "els_damascus_recon"
+        ],
+        [
+            "els_lancier_assault"
+        ],
+        [
+            "els_lancier_brawler"
+        ],
+        [
+            "els_mistral_smuggler"
+        ]
+    ],
+    "startShipsCombatSmall": [
+        [
+            "els_lancier_assault",
+            "els_damascus_escort",
+            "els_damascus_recon"
+        ],
+        [
+            "els_adept_std",
+            "els_lancier_cs",
+            "els_damascus_strike"
+        ],
+        [
+            "els_lancier_elite",
+            "els_adept_patrol",
+            "els_damascus_std"
+        ]
+    ],
+    "startShipsCombatLarge": [
+        [
+            "els_chevalier_std",
+            "els_lancier_assault",
+            "els_damascus_escort"
+        ],
+        [
+            "els_hallebarde_std",
+            "els_chevalier_patrol",
+            "els_damascus_recon"
+        ],
+        [
+            "els_chevalier_fast",
+            "els_lancier_elite",
+            "els_damascus_strike"
+        ]
+    ],
+    "startShipsTradeSmall": [
+        [
+            "els_mistral_bal",
+            "els_mistral_m_std",
+            "els_damascus_escort"
+        ],
+        [
+            "els_mistral_smuggler",
+            "els_sommelier_support",
+            "els_adept_std"
+        ]
+    ],
+    "startShipsTradeLarge": [
+        [
+            "els_mistral_m_std",
+            "els_mistral_bal",
+            "els_chevalier_std",
+            "els_sommelier_support"
+        ],
+        [
+            "els_mistral_m_assault",
+            "els_mistral_smuggler",
+            "els_chevalier_supp",
+            "els_sommelier_defense"
+        ]
+    ],
+    "startShipsCarrierSmall": [
+        [
+            "els_sommelier_support",
+            "els_damascus_escort",
+            "els_lancier_cs"
+        ]
+    ],
+    "startShipsCarrierLarge": [
+        [
+            "els_dupleix_support",
+            "els_damascus_recon",
+            "els_lancier_assault"
+        ],
+        [
+            "els_dupleix_assault",
+            "els_chevalier_patrol",
+            "els_damascus_escort"
+        ],
+        [
+            "els_dupleix_strike",
+            "els_chevalier_fast",
+            "els_damascus_strike"
+        ]
+    ],
+    "startShipsExplorerSmall": [
+        [
+            "els_adept_support",
+            "els_sommelier_support",
+            "els_damascus_recon"
+        ],
+        [
+            "els_adept_std",
+            "els_sommelier_defense",
+            "els_damascus_std"
+        ]
+    ],
+    "startShipsExplorerLarge": [
+        [
+            "els_chevalier_supp",
+            "els_sommelier_support",
+            "els_damascus_recon",
+            "els_mistral_bal"
+        ],
+        [
+            "els_hallebarde_supp",
+            "els_sommelier_defense",
+            "els_adept_support",
+            "els_mistral_m_std"
+        ]
+    ],
+    "startShipsSuper": [
+        [
+            "els_chevalier-ss_custom",
+            "els_lancier_elite",
+            "els_dupleix_assault"
+        ],
+        [
+            "els_chevalier-ss_strike",
+            "els_hallebarde_strike",
+            "els_lancier_brawler"
+        ],
+        [
+            "els_chevalier-ss_assault",
+            "els_lancier_assault",
+            "els_dupleix_strike"
+        ]
+    ],
+    "startShipsGrandFleet": [
+        [
+            "els_chevalier-ss_custom",
+            "els_hallebarde_std",
+            "els_chevalier_std",
+            "els_dupleix_assault",
+            "els_lancier_assault",
+            "els_lancier_cs",
+            "els_damascus_escort",
+            "els_sommelier_support",
+            "els_mistral_m_std"
+        ]
+    ]
+}

@@ -1,0 +1,449 @@
+{
+    "id": "directory",
+    "color": [
+        0,
+        255,
+        100,
+        255
+    ],
+    "displayName": "Directory",
+    "displayNameLong": "Allied Systems Directory",
+    "displayNameWithArticle": "the Allied Systems Directory",
+    "logo": "graphics/factions/player_flag.png",
+    "crest": "graphics/factions/crest_player_flag.png",
+    "shipNamePrefix": "ASV",
+    "shipNameSources": {
+        "ELS_REVOLUTIONAIRE": 3,
+        "ELS_FRENCH": 2,
+        "ELS_ARABIC": 2,
+        "ELS_FARSI": 2,
+        "PERSIAN": 2,
+        "REVOLUTIONARY": 1
+    },
+    "names": {
+        "modern": 2,
+        "world": 3,
+        "future": 1
+    },
+    "illegalCommodities": [
+        "organs",
+        "hand_weapons",
+        "lobster"
+    ],
+    "internalComms": "directory_internal",
+    "music": {
+        "theme": "music_tritach_encounter_neutral",
+        "market_neutral": "music_tritach_encounter_neutral",
+        "market_hostile": "music_tritach_encounter_hostile",
+        "market_friendly": "music_tritach_encounter_friendly",
+        "encounter_neutral": "music_tritach_encounter_neutral",
+        "encounter_hostile": "music_tritach_encounter_hostile",
+        "encounter_friendly": "music_tritach_encounter_friendly"
+    },
+    "portraits": {
+        "standard_male": [
+            "graphics/portraits/portrait_hegemony01.png",
+            "graphics/portraits/portrait_hegemony02.png",
+            "graphics/portraits/portrait_hegemony06.png",
+            "graphics/portraits/portrait_mercenary04.png",
+            "graphics/portraits/portrait13.png",
+            "graphics/portraits/portrait15.png",
+            "graphics/portraits/portrait18.png",
+            "graphics/portraits/portrait20.png",
+            "graphics/portraits/portrait23.png"
+        ],
+        "standard_female": [
+            "graphics/portraits/portrait_hegemony03.png",
+            "graphics/portraits/portrait_hegemony04.png",
+            "graphics/portraits/portrait_mercenary05.png",
+            "graphics/portraits/portrait16.png",
+            "graphics/portraits/portrait21.png",
+            "graphics/portraits/portrait22.png"
+        ]
+    },
+    "ranks": {
+        "ranks": {
+            "spaceSailor": {
+                "name": "Spacer"
+            },
+            "spaceChief": {
+                "name": "Chief"
+            },
+            "spaceEnsign": {
+                "name": "Ensign"
+            },
+            "spaceLieutenant": {
+                "name": "Lieutenant"
+            },
+            "spaceCommander": {
+                "name": "Adjutant"
+            },
+            "spaceCaptain": {
+                "name": "Commandant"
+            },
+            "spaceAdmiral": {
+                "name": "Admiral"
+            },
+            "spaceMarshal": {
+                "name": "Space Marshal"
+            },
+            "groundPrivate": {
+                "name": "Private"
+            },
+            "groundSergeant": {
+                "name": "Sergeant"
+            },
+            "groundLieutenant": {
+                "name": "Lieutenant"
+            },
+            "groundCaptain": {
+                "name": "Adjutant"
+            },
+            "groundMajor": {
+                "name": "Major"
+            },
+            "groundColonel": {
+                "name": "Commandant"
+            },
+            "groundGeneral": {
+                "name": "Marshal"
+            },
+            "citizen": {
+                "name": "Citizen"
+            }
+        },
+        "posts": {
+            "patrolCommander": {
+                "name": "Patrol Commander"
+            },
+            "fleetCommander": {
+                "name": "Squadron Commander"
+            },
+            "baseCommander": {
+                "name": "Installation Commander"
+            },
+            "supplyOfficer": {
+                "name": "Supply Commissar"
+            },
+            "administrator": {
+                "name": "Director"
+            },
+            "stationCommander": {
+                "name": "Station Director"
+            },
+            "outpostCommander": {
+                "name": "Outpost Commander"
+            },
+            "portmaster": {
+                "name": "Harbormaster"
+            },
+            "specialAgent": {
+                "name": "Operative"
+            },
+            "officer": {
+                "name": "Officer"
+            }
+        }
+    },
+    "custom": {
+        "offersCommissions": true,
+        "engagesInHostilities": true,
+        "buysAICores": true,
+        "AICoreValueMult": 1.5,
+        "AICoreRepMult": 1.5,
+        "buysSurveyData": 1.5,
+        "hostilityImpactOnGrowth": true,
+        "punitiveExpeditionData": {
+            "vsCompetitors": true,
+            "vsFreePort": false,
+            "canBombard": false,
+            "territorial": true
+        }
+    },
+    "fleetTypeNames": {
+        "patrolSmall": "Recon Squadron",
+        "patrolMedium": "Patrol Flotilla",
+        "patrolLarge": "Task Force",
+        "inspectionFleet": "Customs Inspection",
+        "taskForce": "Directory Fleet",
+        "scavengerSmall": "Prospector",
+        "scavengerMedium": "Scavenger Group",
+        "scavengerLarge": "Salvage Expedition"
+    },
+    "traits": {
+        "admiral": {},
+        "captain": {
+            "timid": 3,
+            "cautious": 10,
+            "steady": 10,
+            "aggressive": 5
+        }
+    },
+    "doctrine": {
+        "warships": 4,
+        "carriers": 2,
+        "phaseShips": 1,
+        "officerQuality": 3,
+        "shipQuality": 3,
+        "numShips": 3,
+        "autofitRandomizeProbability": 0.1,
+        "commanderSkills": [
+            "carrier_group",
+            "crew_training",
+            "officer_training",
+            "coordinated_maneuvers",
+            "electronic_warfare",
+            "flux_regulation",
+            "cybernetic_augmentation"
+        ]
+    },
+    "hullFrequency": {
+        "tags": {
+            "els_bp": 10
+        },
+        "hulls": {
+            "els_adept": 10,
+            "els_chevalier": 10,
+            "els_damascus": 10,
+            "els_dupleix": 8,
+            "els_hallebarde": 8,
+            "els_lancier": 10,
+            "els_mistral": 6,
+            "els_sommelier": 8
+        }
+    },
+    "shipsWhenImporting": {
+        "tags": [
+            "base_bp",
+            "els_bp"
+        ],
+        "hulls": [
+            "els_adept",
+            "els_chevalier",
+            "els_damascus",
+            "els_dupleix",
+            "els_hallebarde",
+            "els_lancier",
+            "els_mistral",
+            "els_sommelier"
+        ]
+    },
+    "knownShips": {
+        "tags": [
+            "base_bp",
+            "els_bp"
+        ],
+        "hulls": [
+            "els_adept",
+            "els_chevalier",
+            "els_chevalier_ss",
+            "els_damascus",
+            "els_dupleix",
+            "els_hallebarde",
+            "els_lancier",
+            "els_mistral",
+            "els_mistral_m",
+            "els_sommelier",
+            "falcon",
+            "eagle",
+            "apogee",
+            "gryphon",
+            "odyssey",
+            "mule",
+            "gemini",
+            "venture",
+            "tarsus",
+            "buffalo",
+            "atlas",
+            "dram",
+            "phaeton",
+            "prometheus",
+            "valkyrie",
+            "nebula",
+            "ox",
+            "crig"
+        ]
+    },
+    "priorityShips": {
+        "tags": [
+            "els_bp"
+        ],
+        "hulls": [
+            "els_adept",
+            "els_chevalier",
+            "els_damascus",
+            "els_dupleix",
+            "els_hallebarde",
+            "els_lancier",
+            "els_mistral_m"
+        ]
+    },
+    "knownFighters": {
+        "tags": [
+            "base_bp",
+            "els_bp"
+        ],
+        "fighters": [
+            "els_djinn_wing",
+            "els_ifrit_wing",
+            "xyphos_wing",
+            "gladius_wing",
+            "thunder_wing",
+            "dagger_wing",
+            "piranha_wing"
+        ]
+    },
+    "priorityFighters": {
+        "tags": [
+            "els_bp"
+        ],
+        "fighters": [
+            "els_djinn_wing",
+            "els_ifrit_wing"
+        ]
+    },
+    "knownWeapons": {
+        "tags": [
+            "base_bp",
+            "hightech_bp",
+            "midline_bp",
+            "missile_bp",
+            "els_bp"
+        ],
+        "weapons": [
+            "els_miniflakker",
+            "els_coilac",
+            "els_coilac_heavy",
+            "els_epee",
+            "els_glaive",
+            "els_sirocco",
+            "els_greavecannon",
+            "els_hatf_rack",
+            "els_raad_rack",
+            "els_hatf_pod",
+            "els_raad_pod",
+            "els_alkahest",
+            "els_alkahest_pod",
+            "els_alouette_rack",
+            "els_alouette_pod",
+            "els_tacmaser",
+            "els_hmaser",
+            "els_zdmaser",
+            "els_zdmaser_sm",
+            "els_hvydefmaser",
+            "els_excimer",
+            "els_pdlaser",
+            "els_magflaktwin",
+            "els_magflak",
+            "els_countermissile_3cell",
+            "els_stinger",
+            "els_twinstinger",
+            "els_positronmauler",
+            "els_positronblaster",
+            "els_positronblaster_hvy",
+            "els_autogun",
+            "els_laser_array",
+            "els_phased_array",
+            "pdlaser",
+            "lrpdlaser",
+            "taclaser",
+            "irpulse",
+            "pulselaser",
+            "heavyblaster",
+            "phasebeam",
+            "autopulse",
+            "plasma",
+            "tachyonlance",
+            "vulcan",
+            "lightac",
+            "lightdualac",
+            "railgun",
+            "lightneedler",
+            "heavyneedler",
+            "heavymg",
+            "flak",
+            "dualflak",
+            "chaingun",
+            "harpoon",
+            "harpoon_single",
+            "sabot",
+            "sabot_single",
+            "atropos",
+            "atropos_single",
+            "typhoon",
+            "salamanderpod",
+            "swarmer",
+            "heatseeker"
+        ]
+    },
+    "priorityWeapons": {
+        "tags": [
+            "els_bp"
+        ],
+        "weapons": [
+            "els_coilac_heavy",
+            "els_glaive",
+            "els_sirocco",
+            "els_greavecannon",
+            "els_hatf_pod",
+            "els_raad_pod",
+            "els_alkahest_pod",
+            "els_alouette_pod",
+            "els_hmaser",
+            "els_hvydefmaser",
+            "els_excimer",
+            "els_magflaktwin",
+            "els_positronmauler",
+            "els_positronblaster_hvy",
+            "els_autogun"
+        ]
+    },
+    "knownHullMods": {
+        "tags": [
+            "base_bp",
+            "els_bp"
+        ],
+        "hullMods": [
+            "targetingunit",
+            "hardenedshieldemitter",
+            "fluxdistributor",
+            "stabilizedshieldemitter",
+            "fluxbreakers",
+            "armoredweapons",
+            "unstable_injector",
+            "auxiliarythrusters",
+            "blast_doors",
+            "pointdefenseai",
+            "eccm",
+            "missleracks",
+            "expanded_deck_crew",
+            "shielded_holds",
+            "heavyarmor",
+            "adaptiveshields",
+            "converted_hangar",
+            "ecm"
+        ]
+    },
+    "priorityHullMods": {
+        "tags": [
+            "els_bp"
+        ],
+        "hullMods": [
+            "targetingunit",
+            "hardenedshieldemitter",
+            "fluxdistributor",
+            "stabilizedshieldemitter",
+            "missleracks"
+        ]
+    },
+    "weaponsWhenImporting": {
+        "tags": [
+            "base_bp",
+            "hightech_bp",
+            "midline_bp",
+            "missile_bp",
+            "els_bp"
+        ],
+        "weapons": []
+    }
+}

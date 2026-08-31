@@ -1,0 +1,47 @@
+{
+    "variantId": "els_lancier_brawler",
+    "hullId": "els_lancier",
+    "displayName": "Brawler",
+    "fluxCapacitors": 1,
+    "fluxVents": 3,
+    "quality": 0.75,
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "fluxdistributor"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "els_positronblaster_hvy"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "els_stinger"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_laser_array",
+                "WS0004": "els_laser_array"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "els_heatvent"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

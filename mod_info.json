@@ -1,0 +1,15 @@
+{
+  "id": "els",
+  "name": "ELS",
+  "author": "lechibang",
+  "version": "0.2.0-0.98a",
+  "description": "Adds the Directory faction with a roster of compact, versatile warships featuring coilgun and maser weapon technology.",
+  "gameVersion": "0.98a-RC8",
+  "jars": ["jars/els.jar"],
+  "modPlugin": "data.scripts.ELSModPlugin",
+  "dependencies": [
+    {"id": "lw_lazylib", "name": "LazyLib"},
+    {"id": "MagicLib", "name": "MagicLib"},
+    {"id": "shaderLib", "name": "GraphicsLib"}
+  ]
+}

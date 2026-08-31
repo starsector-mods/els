@@ -1,0 +1,33 @@
+{
+    "variantId": "els_adept_support",
+    "hullId": "els_adept",
+    "displayName": "Support",
+    "fluxCapacitors": 3,
+    "fluxVents": 6,
+    "quality": 0.75,
+    "hullMods": [
+        "targetingunit",
+        "eccm",
+        "stabilizedshieldemitter"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "els_laser_array",
+                "WS0003": "els_laser_array"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "els_tacmaser"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

@@ -1,0 +1,53 @@
+{
+    "id": "els_positronmauler",
+    "specClass": "projectile",
+    "type": "ENERGY",
+    "size": "LARGE",
+    "displayArcRadius": 350,
+    "turretSprite": "graphics/ELS/weapons/els_positronmauler_turret_base.png",
+    "turretGunSprite": "graphics/ELS/weapons/els_positronmauler_turret_recoil.png",
+    "turretGlowSprite": "graphics/ELS/weapons/els_positronmauler_turret_glow.png",
+    "hardpointSprite": "graphics/ELS/weapons/els_positronmauler_hardpoint_base.png",
+    "hardpointGunSprite": "graphics/ELS/weapons/els_positronmauler_hardpoint_recoil.png",
+    "hardpointGlowSprite": "graphics/ELS/weapons/els_positronmauler_hardpoint_glow.png",
+    "visualRecoil": 3.5,
+    "glowColor": [
+        255,
+        75,
+        100,
+        255
+    ],
+    "turretOffsets": [
+        22,
+        0
+    ],
+    "turretAngleOffsets": [
+        0
+    ],
+    "hardpointOffsets": [
+        24,
+        0
+    ],
+    "hardpointAngleOffsets": [
+        0
+    ],
+    "barrelMode": "ALTERNATING",
+    "animationType": "GLOW_AND_FLASH",
+    "autocharge": true,
+    "muzzleFlashSpec": {
+        "length": 32.5,
+        "spread": 7.5,
+        "particleSizeMin": 9.0,
+        "particleSizeRange": 18.0,
+        "particleDuration": 0.175,
+        "particleCount": 40,
+        "particleColor": [
+            255,
+            100,
+            235,
+            120
+        ]
+    },
+    "projectileSpecId": "els_positron_round",
+    "fireSoundTwo": "els_gyro_fire"
+}

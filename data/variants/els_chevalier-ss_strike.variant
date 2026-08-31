@@ -1,0 +1,49 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 2,
+    "fluxVents": 3,
+    "hullId": "els_chevalier_ss",
+    "hullMods": [
+        "targetingunit",
+        "fluxdistributor",
+        "hardenedshieldemitter"
+    ],
+    "quality": 1.0,
+    "variantId": "els_chevalier-ss_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0000": "els_sirocco"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "els_hatf_rack",
+                "WS0002": "els_hatf_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_positronblaster_hvy",
+                "WS0004": "els_positronblaster_hvy"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "els_tacmaser",
+                "WS0006": "els_tacmaser"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

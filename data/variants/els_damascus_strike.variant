@@ -1,0 +1,32 @@
+{
+    "variantId": "els_damascus_strike",
+    "hullId": "els_damascus",
+    "displayName": "Strike",
+    "fluxCapacitors": 2,
+    "fluxVents": 4,
+    "quality": 0.75,
+    "hullMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "els_raad_rack",
+                "WS0002": "els_raad_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_positronblaster"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

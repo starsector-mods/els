@@ -1,0 +1,48 @@
+{
+    "variantId": "els_hallebarde_std",
+    "hullId": "els_hallebarde",
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 8,
+    "quality": 0.5,
+    "hullMods": [
+        "missleracks",
+        "targetingunit"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "els_hatf_pod",
+                "WS0002": "els_hatf_pod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "els_coilac_heavy"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "els_tacmaser",
+                "WS0007": "els_tacmaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_miniflakker",
+                "WS0005": "els_miniflakker"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

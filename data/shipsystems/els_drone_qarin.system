@@ -1,0 +1,32 @@
+{
+	"id":"els_drone_qarin",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"DRONE_LAUNCHER_PD",
+
+	"droneVariant":"els_drone_qarin",
+
+	"allowFreeRoam":true,
+
+	"launchSpeed":100,
+	"launchDelay":1,
+	"maxDrones":1,
+	"droneBehavior":[
+		{
+			"droneIndex":[0,1,2,3,4,5,6,7,8,9],
+			"defaultFacing":"MATCH_DRONE_HEADING",
+			"faceEnemy":true,
+			"holdRoamRange":250,
+			"freeRoamRange":1500,
+			"targetPriority":[MISSILE, SHIP_TARGET, FIGHTER, SHIP],
+			"initialOrbitAngle":0,
+			"orbitRadius":50,
+			"orbitDir":1,
+			"orbitSpeed":100
+		}
+	],
+
+	"useSound":"drone_launch",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{}
+}

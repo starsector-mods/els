@@ -1,0 +1,32 @@
+{
+    "variantId": "els_damascus_recon",
+    "hullId": "els_damascus",
+    "displayName": "Recon",
+    "fluxCapacitors": 2,
+    "fluxVents": 5,
+    "quality": 0.5,
+    "hullMods": [
+        "unstable_injector",
+        "hardenedshieldemitter"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "els_hatf_rack",
+                "WS0002": "els_raad_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_zdmaser"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

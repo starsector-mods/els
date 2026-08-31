@@ -1,0 +1,26 @@
+{
+    "variantId": "els_ifrit",
+    "hullId": "els_ifrit",
+    "displayName": "Heavy Fighter",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "quality": 0.5,
+    "hullMods": [],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "els_alkahest_ftr"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "els_shamshir_ftr",
+                "WS0003": "els_shamshir_ftr"
+            }
+        }
+    ]
+}

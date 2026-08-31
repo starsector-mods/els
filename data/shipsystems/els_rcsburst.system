@@ -1,0 +1,25 @@
+{
+	"id":"els_rcsburst",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+
+	"statsScript":"data.shipsystems.scripts.RCSBurstStats",
+
+	"engineGlowLengthMult":2.0,
+	"engineGlowWidthMult":1.2,
+	"engineGlowGlowMult":2.0,
+
+	"flameoutOnImpactChance":0.15,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+
+	"fadeActivationSoundOnChargedown":false,
+
+	"outOfUsesSound":"engine_disabled",
+
+	"aiHints":{
+		"averageSpeedIncrease":28,
+		"burstMovementPotential":250
+	}
+}

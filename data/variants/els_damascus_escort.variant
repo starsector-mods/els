@@ -1,0 +1,32 @@
+{
+    "variantId": "els_damascus_escort",
+    "hullId": "els_damascus",
+    "displayName": "Escort",
+    "fluxCapacitors": 3,
+    "fluxVents": 6,
+    "quality": 0.5,
+    "hullMods": [
+        "pointdefenseai",
+        "fluxdistributor"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "els_countermissile_3cell",
+                "WS0002": "els_countermissile_3cell"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_zdmaser"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

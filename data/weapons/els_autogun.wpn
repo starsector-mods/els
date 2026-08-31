@@ -1,0 +1,30 @@
+{
+	"id":"els_autogun",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":700,
+	"turretSprite":"graphics/ELS/weapons/istl_slammerautogun_turret_base.png",
+	"turretGunSprite":"graphics/ELS/weapons/istl_slammerautogun_turret_recoil.png",
+	"hardpointSprite":"graphics/ELS/weapons/istl_slammerautogun_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/ELS/weapons/istl_slammerautogun_hardpoint_recoil.png",
+	"visualRecoil":5.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[24, -5, 24, 5],
+	"turretAngleOffsets":[-1, 1],
+	"hardpointOffsets":[22, -5, 22, 5],
+	"hardpointAngleOffsets":[-1, 1],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":35.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":2.0,
+					   "particleSizeMin":7.5,
+					   "particleSizeRange":10.0,
+					   "particleDuration":0.09,
+					   "particleCount":20,
+		"particleColor":[255,165,105,225]},
+	"projectileSpecId":"els_autogun_shot",  # projectile that will be fired
+	"fireSoundOne":"els_stinger_load",
+	"fireSoundTwo":"els_autogun_fire"
+}

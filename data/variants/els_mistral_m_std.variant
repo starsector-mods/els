@@ -1,0 +1,40 @@
+{
+    "variantId": "els_mistral_m_std",
+    "hullId": "els_mistral_m",
+    "displayName": "Mil-Spec Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 5,
+    "quality": 0.75,
+    "hullMods": [
+        "targetingunit",
+        "fluxdistributor",
+        "hardenedshieldemitter"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "els_coilac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_stinger"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "els_tacmaser",
+                "WS0002": "els_tacmaser"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

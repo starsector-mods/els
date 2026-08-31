@@ -1,0 +1,48 @@
+{
+    "variantId": "els_hallebarde_strike",
+    "hullId": "els_hallebarde",
+    "displayName": "Strike",
+    "fluxCapacitors": 2,
+    "fluxVents": 5,
+    "quality": 0.75,
+    "hullMods": [
+        "missleracks",
+        "targetingunit"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "els_alkahest_pod",
+                "WS0002": "els_alkahest_pod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "els_greavecannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "els_tacmaser",
+                "WS0007": "els_tacmaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_miniflakker",
+                "WS0005": "els_miniflakker"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

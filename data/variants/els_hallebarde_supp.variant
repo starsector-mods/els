@@ -1,0 +1,49 @@
+{
+    "variantId": "els_hallebarde_supp",
+    "hullId": "els_hallebarde",
+    "displayName": "Close Support",
+    "fluxCapacitors": 2,
+    "fluxVents": 4,
+    "quality": 0.5,
+    "hullMods": [
+        "eccm",
+        "targetingunit",
+        "fluxdistributor"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "els_alouette_pod",
+                "WS0002": "els_alouette_pod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "els_glaive"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_stinger",
+                "WS0005": "els_stinger"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "els_zdmaser",
+                "WS0007": "els_zdmaser"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

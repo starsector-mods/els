@@ -1,0 +1,44 @@
+{
+    "variantId": "els_dupleix_escort",
+    "hullId": "els_dupleix",
+    "displayName": "Escort",
+    "fluxCapacitors": 2,
+    "fluxVents": 4,
+    "quality": 0.5,
+    "wings": [
+        "els_djinn_wing",
+        "els_djinn_wing"
+    ],
+    "hullMods": [
+        "pointdefenseai",
+        "fluxdistributor"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "els_countermissile_3cell"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "els_magflak",
+                "WS0003": "els_zdmaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "els_zdmaser_sm",
+                "WS0006": "els_zdmaser_sm"
+            }
+        }
+    ],
+    "goalVariant": true,
+    "permaMods": [],
+    "sMods": []
+}

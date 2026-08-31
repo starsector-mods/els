@@ -1,0 +1,25 @@
+{
+	"baseHullId":"els_chevalier",
+	"skinHullId":"els_chevalier_ss",
+	"hullName":"Chevalier-SS",
+	"ordnancePoints":95,
+	"systemId":"els_aminjector",
+	"descriptionId":"els_chevalier",
+	"descriptionPrefix":"This prototype hull has received extensive modifications from the baseline spec, replacing the spinal mount with a heavy hardpoint capable of fielding large capital-grade weaponry.",
+	"spriteName":"graphics/ELS/ships/els_chevalier.png",
+	"baseValueMult":1.5,
+	"removeWeaponSlots":[],
+	"removeEngineSlots":[],
+	"removeBuiltInMods":[],
+	"removeBuiltInWeapons":[],
+	"weaponSlotChanges":{
+		"WS0000":{
+			"size":"LARGE",
+			"type":"HYBRID"
+		},
+		"WS0003":{"type":"HYBRID"},
+		"WS0004":{"type":"HYBRID"}
+	},
+	"builtInMods":["high_maintenance"],
+	"builtInWeapons":{}
+}

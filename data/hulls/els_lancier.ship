@@ -1,0 +1,140 @@
+{
+  "bounds": [
+    65, -3,
+    20, -35,
+    -45, -42,
+    -55, -30,
+    -45, -10,
+    -45, 10,
+    -55, 30,
+    -45, 42,
+    20, 35,
+    65, 3
+  ],
+  "center": [
+    45,
+    67.5
+  ],
+  "collisionRadius": 73,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 27,
+      "location": [
+        -54.5,
+        -37
+      ],
+      "style": "ELS_MILITARY",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 27,
+      "location": [
+        -54.5,
+        37
+      ],
+      "style": "ELS_MILITARY",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 40,
+      "location": [
+        -46,
+        3.5
+      ],
+      "style": "ELS_MILITARY",
+      "width": 9
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 40,
+      "location": [
+        -46,
+        -3.5
+      ],
+      "style": "ELS_MILITARY",
+      "width": 9
+    }
+  ],
+  "height": 135,
+  "hullId": "els_lancier",
+  "hullName": "Lancier",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 86,
+  "spriteName": "graphics/ELS/ships/els_lancier.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 90,
+      "arc": 260,
+      "id": "WS0003",
+      "locations": [
+        -17.5,
+        18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 260,
+      "id": "WS0004",
+      "locations": [
+        -17.5,
+        -18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0001",
+      "locations": [
+        55.5,
+        -2.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        16,
+        15
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        -20.5,
+        0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 90
+}
